@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+  background-color: white;
+  font-family: 'Palanquin', sans-serif;
+}
+.logo-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.logo-name a img{
+    width: 10rem;
+}
+.the-end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    color: white;
+}
+.buyinfo  {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+}
+
+.buyinfo a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar ul li{
+    padding-right: 2.5rem;
+    padding-top: 1rem;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.navbar ul li a:hover{
+    color: #7B112E;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 1.5rem;
+    background-color: black;
+}
+
+.video-container{
+    position: relative;
+    width: 100%;
+}
+.video-container video{
+    width: 100%;
+    opacity: 40%;
+}
+.section .info{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section h1{
+    color: white;
+    font-size: 5rem;
+}
+.section .info a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.1rem;
+    padding-right: 0.6rem;
+    padding-left: 0.6rem;
+    border: 2px solid white;
+    transition: 1s;
+}
+.section .info a:hover{
+    background-color: white;
+    color: grey;
+}
